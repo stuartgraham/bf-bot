@@ -1,0 +1,6 @@
+__pycache__/
+store/
+LogonService/.env
+.env
+gitclean.bat
+orig.py

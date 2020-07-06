@@ -1,0 +1,12 @@
+create bf
+use bf
+
+db.createUser({
+    user: 'bf-user',
+    pwd: 'bf-pwd',
+    roles: [{role: 'readWrite', db: 'betfair'}]
+})
+
+db.createCollection("sessions")
+db.createCollection("event_types")
+db.createCollection("competitions")
